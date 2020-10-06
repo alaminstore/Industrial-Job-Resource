@@ -1,0 +1,139 @@
+ /* Medium Layout: 1280px. */
+ @media only screen and (min-width: 992px){
+    .active{
+        border-bottom:3px solid #888;
+		border-radius:4px;
+     }
+}
+
+ /* Tablet Layout: 768px. */
+ @media only screen and (min-width: 768px) and (max-width: 991px) {
+    .active{
+        border-bottom:3px solid #888;
+		border-radius:4px;
+     }
+     
+     .header-top-area,
+     .header-top-area .text-right,
+     .logo,
+     .mainmenu ul,
+     .text-right {
+         text-align: center;
+     }
+
+ }
+
+ /* Mobile Layout: 320px. */
+ @media only screen and (max-width: 767px) {
+
+     .active{
+         
+     }
+     .header-top-area,
+     .header-top-area .text-right {
+         text-align: center;
+     }
+
+     .header-top-area {
+         font-size: 12px;
+     }
+
+     /*main menu*/
+     #header {
+     }
+
+     #header {
+         padding: 5px 0;
+     }
+
+     #header.sticky {
+         position: relative;
+     }
+
+     #header .mobile-nav {
+         display: block;
+     }
+
+     #header .logo img {
+         height: 40px;
+         width: auto;
+     }
+
+     #header .logo {
+         text-align: left;
+     }
+
+     #header .social {
+         display: none;
+     }
+
+     #header .mobile-nav {
+         display: block;
+     }
+
+     #header .slicknav_nav {
+         padding-top: 10px;
+     }
+
+     #header.slicknav_nav a {
+         color:#000;
+         border-radius: 5px;
+         font-size: 14px;
+     }
+    .slicknav_nav a {
+        color: #000!important;
+     }
+     #header .slicknav_nav a:hover {
+         color: #fff;
+     }
+
+     #header .slicknav_nav .slicknav_row:hover {
+         -webkit-border-radius: 6px;
+         -moz-border-radius: 6px;
+         border-radius: 6px;
+         color: #fff;
+     }
+
+     #header .mobile-nav .slicknav_menu {
+         background: transparent;
+     }
+
+     #header .slicknav_nav .slicknav_row,
+     .slicknav_nav a {
+         margin: 0;
+     }
+
+     #header .slicknav_menu {
+         padding: 0;
+     }
+
+     #header .slicknav_btn {
+         position: relative;
+         background: transparent;
+         padding: 10px 10px;
+         margin: 0;
+         margin-top: -40px;
+     }
+
+     #header .slicknav_menutxt {
+         text-shadow: none;
+         font-weight: 500;
+         font-size: 15px;
+     }
+
+
+
+ }
+
+
+
+
+ }
+
+ /* Wide Mobile Layout: 480px. */
+ @media only screen and (min-width: 480px) and (max-width: 767px) {
+    .active{
+    
+     }
+     
+}

@@ -1,0 +1,624 @@
+/*
+===================================
+Software Development Project(3);
+Name:Sm Al-amin
+ID:15162103158(Intake:32 & Section:04);
+INDUSTRIAL JOB RESOURCE.
+===================================
+*/
+*{
+  margin:0;
+  padding:0;
+ }
+a{
+  text-decoration:none!important;
+  }
+ol,ul{
+    list-style:none;
+    }
+img{
+    border:0;
+    max-width: 100%;
+   }
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i');
+
+@font-face{
+    font-family:open-bold;
+    src:url(../fonts/OpenSans_Semibold.otf);
+}
+@font-face{
+    font-family:open-reg;
+    src:url(../fonts/OpenSans_Regular.ttf);
+}
+@font-face{
+    font-family:mypro;
+    src:url(../fonts/Myriad_Pro_Semibold.ttf);
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    line-height: 28px
+}
+input, textarea, select, button {
+    color: #202124;
+    font-family: roboto,arial,sans-serif;
+}
+
+/* now for bootstrap */
+p0{
+  padding-right:0;
+  padding-left:0;
+}
+pl0{
+  padding-left:0;
+}
+pr0{
+  padding-right:0;
+}
+.top{
+  margin-top:20px;
+}
+.bg{
+    background: #edeaea80;
+}
+
+.form-control:focus{
+  border: 1px solid  #1b649e!important;
+}
+/*
+=======================================
+          Main Css START
+=======================================
+*/
+
+/* 1. Header area CSS */
+.header-top-area {
+    background-color: #646464;
+    font-size: 15px;
+    padding: 0;
+    margin: 0 !important;
+    margin-bottom: -8px !important;
+}
+.header-top-area a,
+.header-top-area {
+    color: #fff;
+}
+.header-top-area i.fa {
+    color: #f7be49;
+}
+
+
+/* 2. Slicknav menu display none for wide display */
+.mobile-nav {
+    display: none
+}
+#header .slicknav_menutxt {
+    color: #000;
+    font-weight: 700!important;
+
+}
+.slicknav_menu .slicknav_icon-bar {
+    background-color: #000!important;
+}
+/*=======================
+  Header CSS
+=========================*/ 
+#header {
+    background: aliceblue;
+    z-index: 100;
+    width: 100%;
+    box-shadow: 1px 1px 2px 0px #8888;
+}
+	
+/*----- Logo -----*/
+#header .logo img {
+    height: 63px;
+    width: auto;
+}
+#header .logo {
+    margin-top: 6px;
+}
+/*----- Main Menu -----*/
+#header .nav-area{
+	position:relative;
+}
+#header .mainmenu {
+	float: right;
+	width: 100%;
+}
+.mainmenu .navbar-collapse {
+    padding: 0;
+}
+#header .nav{
+	float:right;
+}
+#header .nav li {
+	position:relative;
+}
+#header .nav li a {
+	color: #444;
+    font-weight: 700!important;
+	text-transform: capitalize;
+	font-size: 15px;
+	padding: 25px 18px;
+	font-weight: 500;
+	display: block;
+	position: relative;
+	background: transparent;
+}
+.mainmenu ul li a:last-child{
+    margin-right:0!important;
+}
+#header .nav li a:hover{
+    color:#000;
+}
+
+
+/*
+===================================
+Login form 
+===================================
+*/
+
+.panel-heading {
+    padding: 5px 15px;
+}
+.panel-footer {
+	padding: 1px 15px;
+	color: #A0A0A0;
+}
+.profile-img {
+	width: 96px;
+	height: 96px;
+	margin: 0 auto 10px;
+	display: block;
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+	border-radius: 50%;
+}
+/*
+===================================
+Registration form 
+===================================
+*/
+.panel {
+    margin-top: 30px;
+}
+.panel-heading h2{
+    text-align:center;
+}
+.panel-footer{
+    text-align:center;
+}
+.panel-default .panel-heading {
+    background: url(http://1.bp.blogspot.com/-7JaMwsCMLKc/VtgYIiYSEAI/AAAAAAAADS0/U3r8SVBzqTw/s000/widgettitle-bg.png)repeat-x!important;
+    background-size: contain!important;
+    border-bottom: 1px solid #D1D1D1!important;
+}
+
+/*
+=================================
+Login Page
+=================================
+*/
+
+/*
+=================================
+Job Page
+=================================
+*/
+
+.job_first{
+   background:url(../img/jbanner.jpg) no-repeat;
+   min-height: 300px;
+   background-size: cover;
+   background-position:center;
+   overflow: hidden;
+}
+.cat_page{
+   background:url(../img/smoke.png) no-repeat;
+   min-height: 250px;
+   background-size: cover;
+   background-position:center;
+   overflow: hidden;
+   color:#fff;
+}
+.search_form {
+    margin-top: 80px;
+}
+.search_job .input_size {
+    height: 54px;
+    width: 360px;
+    border-radius: 8px;
+    border: none;
+    padding: 10px;
+    font-size: 15px;
+    color: #000;
+    background:rgba(212, 214, 216, 0.8);
+    border-left: 4px solid #235ebc;
+}
+.submit_size {
+
+    border-radius: 7px;
+    height: 54px;
+    width: 80px;
+    font-size: 16px;
+    border: none;
+    border-right: 3px solid #235ebc;
+    transition:all linear .2s;
+}
+.submit_size:hover{
+    color:#fff;
+    background:#337ab7;
+}
+.job-featured{
+    background: #fff;
+    padding: 20px;
+    margin: 15px 0;
+    border-radius: 4px;
+    border-left: 4px solid transparent;
+    box-shadow: 0px 5px 14px rgba(191,191,191,.24);
+
+}
+.job-featured .icon{
+    float: left;
+    position: relative;
+    width: 70px;
+    text-align: center;
+    display: inline-block;
+    height: 70px;
+    line-height: 70px;
+    box-shadow: 0 0 7px rgba(203,203,203,.23);
+}
+.job-featured .content {
+   padding-left: 90px;
+}
+.job-featured h3{
+    margin-top: -1px;
+}
+.full-time {
+    background: aliceblue;
+    padding: 5px;
+    border-radius: 8px;
+}
+.job_short{
+    padding:0;
+}
+.job_short .all_job{
+    padding:100px 0;
+}
+.single_job {
+    padding: 1px 30px;
+    font-family: inherit;
+    transition:all linear .2s;
+}
+.single_job:hover {
+    box-shadow: 3px 10px 14px -2px #888888;
+}
+.per_job{
+    color:#141313;
+}
+.cat .gap {
+    padding:7px;
+    border: 1px solid #a29d9d;
+    margin-top: 9px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 3px -1px #777;
+}
+.cat ul li a {
+    color: #5B5B5B;
+    font-size:14px;
+}
+.cat ul li a i {
+    color: #337ab7;
+}
+.top_step h3 {
+    color:#fff;
+    background: cornflowerblue;
+    padding: 21px 30px;
+    text-align: center;
+    border-radius: 6px;
+}
+.details {
+    padding: 5px 45px;
+    box-shadow: 0px 0px 4px 1px #888888;
+}
+.dets{
+    border: 2px solid beige;
+    border-radius: 6px;
+    padding: 14px 7px;
+    box-shadow: 0px 0px 2px 1px #7777;
+
+}
+.para {
+    margin: 0 18px 0 0;
+}
+.apply {
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.lastest{
+    padding: 14px 8px;
+    border-radius: 5px;
+    background: #fff;
+    box-shadow: 0px 2px 10px 1px #7777;
+    margin: 9px 2px 0 0px;
+}
+.lastest_post {
+    margin-top: 29px;
+}
+
+/*
+=================================
+Pagination
+=================================
+*/
+
+.pagination{
+  display: block;
+  font-size: 20px;
+  margin-top: 17px;
+  padding: 10px;
+  text-align: center;
+}
+.pagination a {
+    margin: 0 2px;
+    border: 2px solid #39a6e5;
+    background: #39a6e5 no-repeat;
+    padding: 4px 14px;
+    border-radius: 34px;
+    color: #fff;
+}
+.pagination a:hover{
+    background: #235ebc;
+    border:2px solid #235ebc;
+    color:#fff;
+}
+.single_job img {
+    height: 39px;
+    width: auto;
+}
+.details img {
+
+    height: 43px;
+    width: auto;
+    border: 2px solid aliceblue;
+    padding: 3px;
+}
+.search_job h2 {
+    line-height: 50px;
+}
+.apply a{
+  font-size:16px;
+}
+/*
+================================
+*/
+
+.lastest_post img {
+    height: 30px;
+    width: auto;
+}
+.see_all{
+   margin-top:20px;
+}
+.see_all .btn {
+   padding: 14px 42px;
+   font-size: 16px;
+   font-family: initial;
+}
+
+#success_message{ display: none;}
+
+.apply_option .navbar-default {
+    margin: 0px 15px!important;
+}
+
+.notice marquee {
+  background: aliceblue;
+  margin: 0 16px;
+  border-radius: 5px;
+  margin-top: 6px;
+  font-size: 16px;
+  padding: 5px 0;
+}
+.btn-warning {
+
+    padding: 11px 33px;
+    font-size: 18px;
+}
+
+
+/*
+===================================
+Contact Page
+===================================
+*/
+
+/* .contact_page .hot_line {
+    background: url(../img/phone.png) no-repeat;
+    height: 365px;
+    width: auto;
+    background-size: contain;
+    background-position: center;
+} */
+
+.snumber h4 a {
+    color: red;
+    font-weight: 700;
+}
+
+.message_body .form-control {
+    padding: 16px 12px;
+    color: black;
+    border: 1px solid #ccc;
+    border-radius: 2px!important;
+}
+#ctext_area {
+    max-height: 184px!important;
+}
+.other_contact table {
+
+    background: #fffde7;
+
+}
+.other_contact table td span {
+    color: #831313;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+/*
+==============================================
+post.php
+==============================================
+*/
+
+.wrapper{
+    max-width:600px;
+    margin:0 auto;
+    padding:30px;
+}
+.fields {
+    width: 100%;
+    border: 1px solid #555;
+    height: 40px;
+    padding: 7px 10px;
+    font-size: 16px;
+    margin-top: 15px;
+}
+.sub_btn{
+    background:#096;
+    padding:8px 20px;
+    border:none;
+    margin-top:20px;
+    cursor:pointer;
+    color: #fff;
+    font-weight: 700;
+    border-radius:6px;
+}
+.fields:focus{
+    border-color:red;
+}
+
+
+.footer h5{
+    color:#919191;
+    font-size:16px;
+    font-family:open-reg;
+    line-height:100px;
+}
+
+.one{
+    color:#fff;
+    font-size:18px;
+    border:2px solid #000;
+    padding: 8px 13px 8px 12px;
+    background-color:#000;
+    border-radius:50%;
+    margin:30px 12px;
+}
+
+.two{
+    color:#fff;
+    font-size:16px;
+    border:2px solid #000;
+    padding:9px 11px;;
+    background-color:#000;
+    border-radius:50%;
+    margin:30px 12px;
+}
+
+.three{
+    color:#fff;
+    font-size:16px;
+    border:2px solid #000;
+    padding: 9px 11px 9px 12px;
+    background-color:#000;
+    border-radius:50%;
+    margin:30px 12px;
+}
+
+.four{
+    color:#fff;
+    font-size:16px;
+    border:2px solid #000;
+    padding: 9px 6px 9px 9px;
+    background-color:#000;
+    border-radius:50%;
+    margin:30px 12px;
+}
+.icon_style i:hover{
+    color:white;
+    border:2px solid #59a353;;
+    background-color:#7cc576;
+}
+
+
+.banner{
+    background:url(../img/banner.jpg) no-repeat;
+    min-height: 610px;
+    background-size: contain;
+    background-position:center;
+    overflow: hidden;
+    background-size:cover;
+}
+.banner h1{
+    color:#fff;
+    font-size:50px;
+    margin-top:115px;
+    padding-top:0;
+    font-family:open-bold;
+    
+}
+.banner h4{
+    color:#fff;
+    font-size:20px;
+    margin:43px 0 55px 0;
+}
+.link {
+    color: #fff;
+    font-size: 16px;
+    text-transform: uppercase;
+    border: 1px solid #30739f;
+    padding: 23px 35px;
+    border-radius: 10px;
+    font-family: open-reg;
+    transition: all ease .3s;
+    background: #30739f;
+}
+.link:hover{
+    color:#fff;
+    background: #007bff;
+    border:1px solid cornflowerblue;
+}
+.banner{
+    padding-bottom:120px;
+	height: calc(100vh - 103px);
+    
+}
+
+.icon_style img {
+    height: 94px;
+    width: 82px;
+    padding: 12px 5px;
+    margin-top: 7px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
